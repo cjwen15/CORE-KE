@@ -1,4 +1,4 @@
-# Improving Chinese Extraction of Open Relations Using Pre-trained Language Model and Knowledge Enhancement
+# Improving Extraction of Chinese Open Relations Using Pre-trained Language Model and Knowledge Enhancement
 
 
 
