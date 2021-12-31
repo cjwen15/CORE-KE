@@ -1,6 +1,6 @@
-###PLM fine-tuning
+### PLM fine-tuning
 
-####Step1. fine-tune the PLM on external knowledge corpus:
+#### Step1. fine-tune the PLM on external knowledge corpus:
 
 ```shell
 python bert/create_pretraining_data.py \
@@ -36,7 +36,7 @@ you can modify the parameters, reference: https://github.com/google-research/ber
 Then take the output from 'pretraining_output' for the next step.
 
 
-####Step2. fine-tune the model on DSNFs extraction:
+#### Step2. fine-tune the model on DSNFs extraction:
 (code for DSNFs extraction, reference: https://github.com/lemonhu/open-entity-relation-extraction)
 
 First change the 'bert_path' in 'bert_lstm_ner.py' with the output model of **step 1**,
